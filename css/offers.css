@@ -6,6 +6,7 @@
   padding: 24px 16px;
   border-radius: 16px;
   text-align: center;
+  background-color: var(--background-tertiary-color);
 }
 
 .card header {
@@ -31,4 +32,19 @@
   display: inline-block;
   font-size: 32px;
   margin-top: 24px;
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 588px;
+    height: 308px;
+  }
+
+  .card header h3 {
+    font-size: 48px;
+  }
+
+  .card header span {
+    font-size: 40px;
+  }
 }
