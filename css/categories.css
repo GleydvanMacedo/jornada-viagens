@@ -1,14 +1,19 @@
 .categories {
+  padding: 88px 24px;
+}
+
+.categories-cards {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 24px;
 }
 
 .categories.section-title {
   font-size: 32px;
 }
 
-.categories-card {
+.cards {
   width: 312px;
   height: 220px;
   display: flex;
@@ -18,15 +23,31 @@
   gap: 24px;
   padding: 24px 16px;
   background-color: var(--background-secondary-color);
-  margin-bottom: 24px;
+  border-radius: 8px;
 }
 
-.categories-card-img {
+.card-image {
   width: 80px;
   height: 80px;
 }
 
-.categories-card h4 {
+.cards h4 {
   font-size: 28px;
   text-align: center;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .categories-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .cards {
+    width: 281px;
+    height: 220px;
+  }
 }
