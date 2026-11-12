@@ -41,6 +41,11 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: var(--text-primary-color);
+}
+
 .section-title h2 {
   font-size: 28px;
   font-weight: var(--titles-weight);
