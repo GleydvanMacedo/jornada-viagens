@@ -1,0 +1,127 @@
+.destinations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  padding: 0 24px;
+}
+
+.destinations .section-title h2 {
+  font-size: 32px;
+  width: 312px;
+  margin: 0 auto;
+}
+
+.destinations .destination-itens {
+  width: 312px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.destinations .destination-itens .item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.destinations .destination-itens .item header {
+  display: block;
+  background-color: transparent;
+  padding: 0;
+  position: static;
+}
+
+.destinations .destination-itens .item .img-item {
+  width: 312px;
+  height: 360px;
+  margin-bottom: 24px;
+}
+
+.destinations .destination-itens .item h4 {
+  font-size: 28px;
+  font-weight: var(--titles-weight);
+  margin: 0;
+}
+
+.destinations .destination-itens .item p {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.destinations .destination-itens .item .button {
+  width: 312px;
+  text-align: center;
+}
+
+.img-tokyo {
+  background: url(../img/tokyo-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.img-osaka {
+  background: url(../img/osaka-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .destinations .section-title h2 {
+    width: 100%;
+  }
+
+  .destinations .destination-itens {
+    width: 648px;
+  }
+
+  .destinations .destination-itens .item .img-item {
+    width: 648px;
+    height: 452px;
+    margin-bottom: 24px;
+  }
+
+  .destinations .destination-itens .item .button {
+    width: 280px;
+  }
+
+  .img-tokyo {
+    background: url(../img/tokyo-tablet-desk.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .img-osaka {
+    background: url(../img/osaka-tablet-desk.jpg) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .destinations {
+    gap: 64px;
+  }
+  .destinations .destination-itens {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .destinations .destination-itens .item {
+    width: 420px;
+  }
+
+  .destinations .destination-itens .item .img-item {
+    width: 420px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .destinations .destination-itens .item {
+    width: 588px;
+  }
+
+  .destinations .destination-itens .item .img-item {
+    width: 588px;
+  }
+}
