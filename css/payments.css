@@ -1,26 +1,68 @@
-.image-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 254px 182px;
-  grid-template-areas:
-    "bag passport"
-    "people people";
-  height: 460px;
-  gap: 24px;
+/* Trechos de codigos comentados são os que fiz para cumprir o desafio da tutora, e que não são usados na correção do desafio */
+.payments .content-container {
+  display: flex;
+  flex-direction: column;
 }
 
-.bag {
+.payments .content-container .image-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: 254px 182px; */
+  /* grid-template-areas:
+    "bag passport"
+    "people people"; */
+  gap: 24px;
+  height: 460px;
+  margin-top: 24px;
+  width: 100%;
+}
+
+.payments .content-container .image-content .image.first {
   background: url(../img/bag-mobile.png) no-repeat;
   background-size: cover;
 }
 
-.passport {
+.payments .content-container .image-content .image.second {
   background: url(../img/passport-mobile.png) no-repeat;
   background-size: cover;
 }
 
-.people {
+.payments .content-container .image-content .image.third {
   background: url(../img/people-mobile.png) no-repeat;
   background-size: cover;
+}
+
+.payments .content-container .image-content .image.colspan-2 {
   grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .payments .content-container .image-content .image.first {
+    background: url(../img/bag-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .content-container .image-content .image.second {
+    background: url(../img/passport-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .content-container .image-content .image.third {
+    background: url(../img/people-tablet.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payments .content-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .payments .content-container .text-content {
+    width: 360px;
+  }
+  .payments .content-container .image-content {
+    width: 790px;
+  }
 }
