@@ -1,0 +1,20 @@
+.city-image {
+  background: url("../img/city-image-mobile.png") no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+@media screen and (min-width: 768px) {
+  .city-image {
+    background: url("../img/city-image-tablet.png") no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .city-image {
+    background: url("../img/city-image-tablet.png") no-repeat;
+    background-size: cover;
+    height: 600px;
+  }
+}
