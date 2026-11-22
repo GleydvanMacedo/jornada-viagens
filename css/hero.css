@@ -28,6 +28,42 @@
   text-align: center;
 }
 
+/* CSS da pagina Pacotes de Viagem */
+
+.travel-packages-hero .hero-img {
+  background: url(../img/banner-japan-mobile.png) no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 460px;
+}
+
+.travel-packages-hero .hero-img .travel-packages-hero-content {
+  padding: 0 24px;
+}
+
+.travel-packages-hero .hero-img h1 {
+  font-size: 48px;
+  color: var(--text-secondary-color);
+}
+
+.travel-packages-hero .hero-img hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px 0 32px;
+}
+
+.travel-packages-hero .hero-img p {
+  color: var(--text-secondary-color);
+  font-size: 20px;
+  line-height: 32px;
+  text-align: left;
+}
+
+/* ------------------------------- */
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     height: 620px;
