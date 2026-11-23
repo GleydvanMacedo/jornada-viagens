@@ -28,7 +28,7 @@
   text-align: center;
 }
 
-/* CSS da pagina Pacotes de Viagem */
+/* -------------------- CSS da pagina Pacotes de Viagem -------------------- */
 
 .travel-packages-hero .hero-img {
   background: url(../img/banner-japan-mobile.png) no-repeat;
@@ -63,7 +63,8 @@
   text-align: left;
 }
 
-/* ------------------------------- */
+/* -------------------- ------------------------------ ---------------------- */
+
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     height: 620px;
@@ -82,6 +83,26 @@
     font-size: 32px;
     text-align: center;
   }
+
+  /* -------------------- CSS da pagina Pacotes de Viagem -------------------- */
+
+  .travel-packages-hero .hero-img {
+    background: url(../img/banner-japan-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .travel-packages-hero .hero-img .travel-packages-hero-content {
+    padding: 96px 48px 0 128px;
+  }
+
+  .travel-packages-hero .hero-img p {
+    color: var(--text-secondary-color);
+    font-size: 32px;
+    line-height: 48px;
+    text-align: left;
+  }
+
+  /* -------------------- ------------------------------ ---------------------- */
 }
 
 @media screen and (min-width: 1024px) {
@@ -100,6 +121,20 @@
   .hero h2 {
     padding: 88px 120px;
   }
+
+  /* -------------------- CSS da pagina Pacotes de Viagem -------------------- */
+
+  .travel-packages-hero .hero-img {
+    background: url(../img/banner-japan-desktop.png) no-repeat;
+    background-size: cover;
+  }
+
+  .travel-packages-hero .hero-img .travel-packages-hero-content {
+    width: 580px;
+    padding: 0 36px 0 128px;
+  }
+
+  /* -------------------- ------------------------------ ---------------------- */
 }
 
 @media screen and (min-width: 1920px) {
