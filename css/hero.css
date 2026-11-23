@@ -29,6 +29,9 @@
 }
 
 /* -------------------- CSS da pagina Pacotes de Viagem -------------------- */
+section.travel-packages-hero {
+  margin: 0 auto 88px;
+}
 
 .travel-packages-hero .hero-img {
   background: url(../img/banner-japan-mobile.png) no-repeat;
