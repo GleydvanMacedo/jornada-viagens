@@ -39,4 +39,14 @@
   .testimonial-container {
     flex-direction: row;
   }
+
+  /* -------------------- CSS da pagina Pacotes de Viagem -------------------- */
+  .testimonials.travel-packages {
+    margin: 104px auto 104px;
+  }
+
+  .testimonials.travel-packages .section-title {
+    margin: 0 auto 64px;
+  }
+  /* -------------------- ------------------------------ ---------------------- */
 }
