@@ -44,6 +44,15 @@
   line-height: 28px;
 } */
 
+@media screen and (max-width: 426px) {
+  /* -------------------- CSS da pagina Pacotes de Viagem -------------------- */
+  .main-footer p span {
+    display: block;
+  }
+
+  /* -------------------- ------------------------------ ---------------------- */
+}
+
 @media screen and (min-width: 768px) {
   .main-footer {
     padding: 32px 60px;
@@ -52,6 +61,7 @@
   .main-footer p {
     font-size: 20px;
     line-height: 32px;
+    text-align: left;
   }
 }
 
