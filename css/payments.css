@@ -31,6 +31,30 @@
   grid-column: span 2;
 }
 
+/* -------------------- CSS da pagina Pacotes de Viagem -------------------- */
+.content-title span {
+  display: block;
+  font-size: 40px;
+  padding-bottom: 24px;
+}
+
+.payments .content-container.travel-packages .image-content .image.first {
+  background: url(../img/japan-build-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .content-container.travel-packages .image-content .image.second {
+  background: url(../img/japan-city-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .content-container.travel-packages .image-content .image.third {
+  background: url(../img/japan-woman-mobile.png) no-repeat;
+  background-size: contain;
+}
+
+/* -------------------- ------------------------------ ---------------------- */
+
 @media screen and (min-width: 768px) {
   .payments .content-container .image-content .image.first {
     background: url(../img/bag-tablet.png) no-repeat;
@@ -46,6 +70,25 @@
     background: url(../img/people-tablet.png) no-repeat;
     background-size: cover;
   }
+
+  /* -------------------- CSS da pagina Pacotes de Viagem -------------------- */
+
+  .payments .content-container.travel-packages .image-content .image.first {
+    background: url(../img/japan-build-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .content-container.travel-packages .image-content .image.second {
+    background: url(../img/japan-city-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .content-container.travel-packages .image-content .image.third {
+    background: url(../img/japan-woman-tablet.png) no-repeat;
+    background-size: contain;
+  }
+
+  /* -------------------- ------------------------------ ---------------------- */
 }
 
 @media screen and (min-width: 1440px) {
@@ -61,4 +104,26 @@
     width: 790px;
     margin: 0;
   }
+
+  /* -------------------- CSS da pagina Pacotes de Viagem -------------------- */
+  .payments .content-container.travel-packages .text-content {
+    padding-top: 76px;
+  }
+
+  .payments .content-container.travel-packages .image-content .image.first {
+    background: url(../img/japan-build-desktop.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .content-container.travel-packages .image-content .image.second {
+    background: url(../img/japan-city-desktop.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .content-container.travel-packages .image-content .image.third {
+    background: url(../img/japan-woman-desktop.png) no-repeat;
+    background-size: contain;
+  }
+
+  /* -------------------- ------------------------------ ---------------------- */
 }
