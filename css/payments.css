@@ -91,20 +91,7 @@
   /* -------------------- ------------------------------ ---------------------- */
 }
 
-@media screen and (min-width: 1440px) {
-  .payments .content-container {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .payments .content-container .text-content {
-    width: 360px;
-  }
-  .payments .content-container .image-content {
-    width: 790px;
-    margin: 0;
-  }
-
+@media screen and (min-width: 1024px) {
   /* -------------------- CSS da pagina Pacotes de Viagem -------------------- */
   .payments .content-container.travel-packages .text-content {
     padding-top: 76px;
@@ -126,4 +113,19 @@
   }
 
   /* -------------------- ------------------------------ ---------------------- */
+}
+
+@media screen and (min-width: 1440px) {
+  .payments .content-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .payments .content-container .text-content {
+    width: 360px;
+  }
+  .payments .content-container .image-content {
+    width: 790px;
+    margin: 0;
+  }
 }
